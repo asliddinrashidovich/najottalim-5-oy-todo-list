@@ -38,7 +38,7 @@ function addTodos() {
                     <p>${item.description}</p>
                 </div>
             </div>
-            <button ${item.complated && 'disabled'} onclick="deletItem(${i})" class="button-css">delete</button>
+            <button ${item.complated && 'disabled'} onclick="deletItem(${i})" class="button-css">Delete</button>
         </div>
       `
     })
